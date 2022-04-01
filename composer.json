@@ -1,0 +1,26 @@
+{
+    "name": "datagrade/lydiapay",
+    "description": "Virtual payments",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DataGrade\\LydiaPay\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DataGrade\\LydiaPay\\LydiaPayServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "KaanTanis",
+            "email": "kt@kaantanis.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
